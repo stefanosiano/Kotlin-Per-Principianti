@@ -3,9 +3,10 @@
 *.aab
 .gradle
 /local.properties
-/.idea
 /temp
 output.json
 .DS_Store
 /build
 */build
+/.idea/workspace.xml
+/.idea/libraries
