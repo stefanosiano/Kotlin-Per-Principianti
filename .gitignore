@@ -8,5 +8,6 @@ output.json
 .DS_Store
 /build
 */build
+/.idea/
 /.idea/workspace.xml
 /.idea/libraries
