@@ -54,6 +54,7 @@ fun main() {
 fun numeri() {
     // La somma di due byte, o due short ritorna sempre un Int
     val b1: Short = 120
+    //
     val b2 = (b1+b1) as Byte
     println(b2)
 }
