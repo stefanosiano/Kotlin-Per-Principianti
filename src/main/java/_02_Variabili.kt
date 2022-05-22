@@ -59,6 +59,26 @@ fun numeri() {
     // E se provassi a sommare due short e forzare il risultato come uno Short, che succede?
     val b2 = (b1+b1) as Short
     println(b2)
+    // E come funziona la divisione?
+    val intero1: Int = 3
+    val intero2: Int = 2
+    val risultato = intero1 / intero2
+    println("$intero1 diviso $intero2 = $risultato")
+    // Eh? Ah giusto! 3/2 fa 1 con resto di 1! E come si ottiene il resto?
+    val resto = intero1 % intero2
+    println("Il resto della divisione tra $intero1 e $intero2 è $resto")
+    // Tutto bello, ma se voglio una divisione con un risultato con la virgola? Cioè una divisione che dia come risultato
+    // un numero reale? Proviamo a fare la divisione tra due numeri reali!
+    val reale1: Double = 3.0
+    val reale2: Double = 2.0
+    val risultato2 = reale1 / reale2
+    println("$reale1 diviso $reale2 = $risultato2")
+    // Yeeeeeeeeeeee
+    // E se si divide un numero intero per uno reale? O viceversa?
+    val risultato3 = intero1 / reale2
+    println("L'intero $intero1 diviso il reale $reale2 = $risultato3")
+    val risultato4 = reale1 / intero2
+    println("Il reale $reale1 diviso l'intero $intero2 = $risultato4")
 }
 
 fun booleani() {
