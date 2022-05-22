@@ -49,12 +49,32 @@ In kotlin (come nella maggior parte dei linguaggi) ci sono diversi tipi:
 
 fun main() {
     numeri()
+    booleani()
 }
 
 fun numeri() {
-    // La somma di due byte, o due short ritorna sempre un Int
+    // La somma di due byte, o due short ritorna sempre un Int. La somma di un numero e un Long ritorna sempre un Long.
+    // La somma di un numero e un Float ritorna un Float. La somma di un numero e un Double ritorna un Double
     val b1: Short = 120
-    //
-    val b2 = (b1+b1) as Byte
+    // E se provassi a sommare due short e forzare il risultato come uno Short, che succede?
+    val b2 = (b1+b1) as Short
     println(b2)
+}
+
+fun booleani() {
+    /*
+     Ci sono diverse operazioni che si possono fare sui booleani.
+     "And" ( && ) -> se due booleani sono entrambi veri, il risultato è vero, altrimenti falso.
+     "Or" ( || ) -> se almeno uno dei due booleani è vero, il risultato è vero, altrimenti falso.
+     Valgono anche  le parentesi nelle operazioni tra booleani.
+    */
+    val b1: Boolean = false
+    val b2: Boolean = true
+    val b3: Boolean = true
+    val risultatoAnd = b1 && b2
+    val risultatoOr = b1 || b2
+    val risultatoAnd2 = b1 || (b2 && b3)
+    println("Il risultato dell'and è: $risultatoAnd")
+    println("Il risultato dell'or è: $risultatoOr")
+    println("Il risultato dell'and composto è: $risultatoAnd2")
 }
