@@ -23,7 +23,8 @@ Un programma è infatti creato da:
 
 La creazione di un programma si divide in 3 fasi:
  - Analisi: risponde alla domanda "Cosa deve essere fatto?"
-    Si analizzano quali sono le variabili di input, quelle di output, eventuali vincoli e formule
+    Si analizzano quali sono le variabili di input (quelle di ingresso, cioè dati del problema), quelle di output
+    (quelle di uscita, cioè la tesi del problema), eventuali vincoli e formule
     Es. Nel teorema di Pitagora: le variabili di input sono il cateto1 e il cateto2. La formula è radice(cateto1^2+cateto2^2).
      Eventuale vincolo: I cateti devono avere lunghezza intera? O possono essere numeri reali? Variabili di output: ipotenusa.
  - Progettazione (design): risponde alla domanda "Come deve essere fatto?". Tecnicamente questo si chiama algoritmo.
@@ -60,6 +61,7 @@ Questo è un commento multilinea: comincia con /* e finisce con */
 Tutto ciò che c'è all'interno di questi caratteri verrà semplicemente ignorato, quindi puoi scriverci ciò che vuoi
  */
 
+// Lasciare questa funzione così com'è
 fun main() {
     calcolaSommaProdotto(3, 5)
     calcolaSommaProdotto(1, 98)

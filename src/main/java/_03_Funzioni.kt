@@ -1,7 +1,7 @@
 class _03_Funzioni {}
 /*
 Le funzioni rappresentano un blocco di istruzioni da eseguire. Queste accettano dei parametri di input e possono restituire un valore.
-La sintassi per dichiarare una funzione in Kotlin è: fun nomeFunzione(parametro1: Int, parametro2: Boolean, ...) { ... }
+La sintassi per dichiarare una funzione in Kotlin è: fun nomeFunzione(parametro1: Tipo, parametro2: Tipo, ...): TipoRitorno { ... }
 
 Il processore esegue le istruzioni di un programma una alla volta, in ordine, finchè il programma non finisce.
 Le funzioni rappresentano una "eccezione": durante l'esecuzione di un programma, se è presente la chiamata ad una funzione,

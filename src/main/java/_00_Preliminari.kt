@@ -16,7 +16,7 @@ La ram è composta da tante piccole celle, ognuna delle quali può memorizzare 1
 Avere una ram da 4 Gb significa avere 4 miliardi di queste celle.
 
 Il disco è come la ram, ma non perde i dati quando si spegne.
-Non viene usato direttamente dal processore perchè è più lento della ram, e rallenterebbe tutto.
+Non viene usato direttamente dal processore perché è più lento della ram, e rallenterebbe tutto.
 
 Queste componenti vengono fatte funzionare tramite i programmi, i software.
 Ci sono diversi livelli di programmazione, ossia diverse astrazioni:
@@ -33,8 +33,6 @@ Ci sono diversi livelli di programmazione, ossia diverse astrazioni:
     Questi linguaggi sfruttano programmi che girano sui vari sistemi operativi, chiamati interpreti.
     Gli interpreti leggono il programma e lo trasformano in tempo reale in qualcosa che piace al sistema operativo.
 
-Queste astrazioni sono presenti
-
 Solitamente un programma è composto da un file, o un insieme di file, che vengono salvati sul disco.
 Quando viene eseguito un programma, questo viene letto dal disco e salvato nella ram, finchè non lo legge tutto o si riempie.
     Se la ram dovesse riempirsi, il computer potrebbe decidere di staccare la spina al programma oppure rimuovere qualcosa
@@ -42,13 +40,12 @@ Quando viene eseguito un programma, questo viene letto dal disco e salvato nella
 A questo punto il processore legge dalla ram le varie istruzioni presenti nel programma e le esegue.
 
 Ma come si crea un programma?
-Si scrive un testo, chiamato codice sorgente, che contiene le varie istruzioni da eseguire. Questo testo viene poi
-    preso da un programma, chiamato compilatore, che ne fa uscire un file (o una serie di file) che può essere eseguito dal processore.
+Si scrive un testo, chiamato codice sorgente, che contiene le varie istruzioni da eseguire. Questo testo viene poi preso
+ da un programma, chiamato compilatore, che ne fa uscire un file (o una serie di file) che può essere eseguito dal processore.
 
 Come fa il compilatore a creare il programma dal testo?
 Per prima cosa il testo deve seguire certe regole: la sintassi.
 Ci sono varie keyword, parole chiave, che servono a far capire al compilatore cosa stiamo facendo.
 Una volta scritto il testo seguendo la sintassi, facciamo un atto di fede e il programma uscirà fuori.
-
 
  */
