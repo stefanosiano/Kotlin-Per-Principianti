@@ -38,13 +38,15 @@ In kotlin (come nella maggior parte dei linguaggi) ci sono diversi tipi:
  - Short: 2 byte - vanno da -32768 a 32767
  - Int: 4 byte - vanno da -2^31 a 2^31-1 (circa da -2 miliardi e passa a 2 miliardi e passa)
  - Long: 8 byte - vanno da -2^63 a 2^63-1 (circa da -8 miliardi di miliardi a 8 miliardi di miliardi)
- - Float: 4 byte - rappresenta numeri reali e riesce a salvare fino a 7 cifre. Quindi può essere impreciso su numeri con la virgola e tante cifre
- - Double: 8 byte - rappresenta numeri reali e riesce a salvare fino a 15 cifre. Quindi può essere impreciso su numeri con la virgola e tante cifre, anche se più preciso del float
+ - Float: 4 byte - rappresenta numeri reali e riesce a salvare fino a 7 cifre. Può essere impreciso sui numeri con tante cifre
+ - Double: 8 byte - rappresenta numeri reali e riesce a salvare fino a 15 cifre.
+  Può essere impreciso sui numeri con tante cifre, anche se più preciso del float
  Booleani:
  - Boolean: 1 bit (in realtà dipende da forze oscure e misteriose) - vero o falso
  Caratteri:
  - Char: 1 byte - i 255 possibili valori del byte sono associati a 255 caratteri possibili in una tabella chiamata ascii
- - String: dipende dalla lunghezza - È un testo che comprende una serie di caratteri. Ognuno di questi caratteri può essere grande da 1 a 4 byte, secondo regole brutte.
+ - String: dipende dalla lunghezza - È un testo che comprende una serie di caratteri.
+  Ognuno di questi caratteri può essere grande da 1 a 4 byte, secondo regole brutte.
 
 La sintassi della dichiarazione di una variabile è:
 var (o val) nomeVariabile: Tipo

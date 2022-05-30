@@ -7,10 +7,11 @@ I programmi possono essere scritti in vari linguaggi.
 Ne esistono migliaia :o
 
 I più comuni sono comunque:
- linguaggi a basso livello: c (e le varianti c++ e c#) e rust: soprattutto usati nei sistemi operativi, data la loro velocità.
+ linguaggi a basso livello: c (e le varianti c++ e c#) e rust: soprattutto usati nei sistemi operativi, data la loro
+        velocità, e nei motori grafici usati dai videogame.
     swift: usato per ios e macos
  linguaggi interpretati: javascript (il re dei siti web), python: usati soprattutto nei server o sul desktop
-    dart: usato per cross-platform (oltre ad "estensioni" di javascript)
+    dart ed "estensioni" di javascript: usato per sviluppo cross-platform (Android, Ios, web, ecc.)
     sql: usato per i database
  linguaggi a metà: java, kotlin: gli unici usati per android, ma anche in server e desktop
 
@@ -41,9 +42,12 @@ La creazione di un programma si divide in 3 fasi:
     }
 
 Possono esserci 3 tipi di errori nella creazione di un programma:
- - Errore sintattico: violazione delle regole di scrittura. Es. scrivere fuc invece che fun. Il programma non viene neanche compilato e viene mostrato un errore.
- - Errore a run-time: un'operazione fallisce quando viene eseguita su determinati parametri. Es. divisione per 0. Il programma crasha e ti viene indicato il punto in cui è avvenuto l'errore.
- - Errore logico: il più bastardo. È un errore nella progettazione dell'algoritmo. Nessuno sarà in grado di dirti dov'è l'errore. Saprai solo che i risultati sono sbagliati.
+ - Errore sintattico: violazione delle regole di scrittura.
+  Es. scrivere fuc invece che fun. Il programma non viene neanche compilato e viene mostrato un errore.
+ - Errore a run-time: un'operazione fallisce quando viene eseguita su determinati parametri.
+  Es. divisione per 0. Il programma crasha e ti viene indicato il punto in cui è avvenuto l'errore.
+ - Errore logico: il più bastardo. È un errore nella progettazione dell'algoritmo.
+  Nessuno sarà in grado di dirti dov'è l'errore. Saprai solo che i risultati sono sbagliati.
 
 Ma da dove comincia l'esecuzione di un programma?
 Ogni linguaggio ha la sua sintassi per specificare l'inizio di un programma, anche se si somigliano tutti.
@@ -55,24 +59,24 @@ Aiuto: per stampare a video un risultato puoi usare le funzioni "print()" o "pri
  La prima stampa ciò che vuoi a video, mentre la seconda stampa ciò che vuoi a video e va a capo.
  */
 
-// Questo è un commento: comincia con // e può essere messo ovunque in un programma. Il compilatore lo ignorerò, quindi ci puoi scrivere ciò che vuoi
+// Questo è un commento: comincia con // e può essere messo ovunque in un programma. Il compilatore lo ignorerà: puoi scriverci ciò che vuoi
 /*
 Questo è un commento multilinea: comincia con /* e finisce con */
 Tutto ciò che c'è all'interno di questi caratteri verrà semplicemente ignorato, quindi puoi scriverci ciò che vuoi
  */
 
-// Lasciare questa funzione così com'è
+// Lascia questa funzione così com'è
 fun main() {
     calcolaSommaProdotto(3, 5)
     calcolaSommaProdotto(1, 98)
 }
 
-// Implementare questa funzione!
+// Implementa questa funzione!
 fun calcolaSommaProdotto(num1: Int, num2: Int) {
 
 }
 
-// Questo è la funzione dell'esempio
+// Questa è la funzione dell'esempio
 fun calcolaIpotenusa(cateto1: Double, cateto2: Double) {
     val ipotenusa = sqrt(cateto1*cateto1 + cateto2*cateto2)
     println("L'ipotenusa ottenuta dai cateti $cateto1 e $cateto2 è $ipotenusa")

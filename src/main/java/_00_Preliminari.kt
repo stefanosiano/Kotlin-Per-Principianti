@@ -22,7 +22,8 @@ Queste componenti vengono fatte funzionare tramite i programmi, i software.
 Ci sono diversi livelli di programmazione, ossia diverse astrazioni:
  - il linguaggio macchina: genera le istruzioni che il processore può eseguire.
  - i linguaggi di basso livello: permettono con una istruzione di eseguire più istruzioni di linguaggio macchina.
-    Questi sono i linguaggi che generano i programmi più veloci, perchè creano file apposta per il sistema operativo su cui devono girare.
+    Questi sono i linguaggi che generano i programmi più veloci, perchè creano file apposta per il sistema operativo su
+    cui devono girare.
     Il sistema operativo poi converte le varie istruzioni in istruzioni digeribili direttamente dal processore.
     Ad esempio, "x = 1 + 2". In linguaggio macchina questo diventerebbe "salva '1' in questo registro; salva '2' in
         questo registro; fai la somma dei due registri salvati prima e salvala in quest'altro registro"
