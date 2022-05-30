@@ -1,10 +1,11 @@
 class _00_Preliminari {}
 /*
-Un computer è formato da varie componenti, l'hardware:
+Un computer è formato da varie componenti fisiche, l'hardware:
  - il case, che contiene tutti i pezzi fisici
  - il processore, che svolge le operazioni
  - la ram, la memoria a breve termine
- - il disco, la memoria a lungo termine
+ - la rom, una memoria di sola lettura
+ - il disco (hard disk o ssd), la memoria a lungo termine
  - scheda video, una sorta di processore creato apposta per la grafica
  - le periferiche, come monitor, tastiera, mouse, stampante, o qualunque cosa possa essere attaccato al pc
 
