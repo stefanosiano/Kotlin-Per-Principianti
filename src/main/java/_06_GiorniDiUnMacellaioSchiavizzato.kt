@@ -23,7 +23,9 @@ Se la data è 29 febbraio, ma l'anno non è bisestile, la funzione deve ritornar
 Aiuto:
 Questo esercizio metterà in pratica tutto ciò che ti è stato spiegato finora. Hai piena libertà su cosa fare.
 Ricorda però il metodo top-down!
- */
+Inoltre, come fai a sapere se un numero "x" è divisibile per 4?
+Facile: se x è divisibile per 4, significa che il resto della divisione tra x e 4 è 0.
+*/
 
 // Puoi lasciare il main così com'è
 fun main() {
